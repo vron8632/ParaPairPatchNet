@@ -1,0 +1,44 @@
+# --- manuscripts, plans, prompts, and internal notes ---
+paper/
+papers/
+paper_v2/
+sections/
+ref_latex/
+docs/
+logs/
+results/
+weights/
+*.tex
+*.bib
+*.bst
+*.cls
+提示词*
+*审稿意见*
+PROGRESS_AND_PLAN.md
+README_source.md
+⚠️_重装后先读我.md
+tmpResave.jpg
+Neurocomputing-NP_PatchLM.zip
+.reasonix/
+
+# --- data, weights, and generated artifacts ---
+data/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.parquet
+*.zip
+
+# --- third-party code is cloned separately ---
+code/third_party/
+
+# --- caches and OS files ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.reasonix/
+
