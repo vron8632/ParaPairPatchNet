@@ -14,7 +14,7 @@ texture expert) whose training distribution is repaired by **paired-paradigm
 sampling** — injecting contrast pairs that share the same background
 photograph with and without a real patch texture.
 
-![Framework](assets/fig_framework.png)
+![Framework](assets/fig_framework.jpg)
 
 It also ships the **statistically calibrated low-FPR evaluation protocol**
 used in the paper: 21,000 uncurated negatives, partial AUC (pAUC) up to the
