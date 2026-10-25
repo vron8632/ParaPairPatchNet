@@ -6,7 +6,7 @@
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-red)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-> Manuscript under double-blind review (Neurocomputing).
+> Manuscript under review at *Neurocomputing*.
 
 This repository contains the training and evaluation code for **ParaPair**:
 a lightweight two-branch detector (a frozen semantic expert + a trainable
@@ -108,18 +108,6 @@ Sixteen falsified or failed configurations are documented in the released log
 (see the paper, Table "Documented negative results"). We release them because
 negative results are the evidence that the gain comes from distribution repair,
 not from capacity, volume, routing, or regularization.
-
-## Citation
-
-```bibtex
-@article{parapair2026,
-  title   = {ParaPair: Paired-Paradigm Sampling Makes Physical Adversarial
-             Patch Detection Reliable at Low False-Alarm Rates},
-  author  = {Pan Ouyang},
-  journal = {Neurocomputing (under double-blind review)},
-  year    = {2026}
-}
-```
 
 ## License
 
